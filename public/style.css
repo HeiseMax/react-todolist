@@ -1,0 +1,32 @@
+
+body {
+    background-color:white;
+}
+
+#root {
+    padding: 0px
+}
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #141414;
+    padding: 30px;
+    box-shadow:
+    6px 6px 0px 0px white, 6px 6px 0px 1px rgba(0,0,0,0.75), 12px 12px 0px 0px white, 12px 12px 0px 1px rgba(0,0,0,0.75);
+}
+
+.todo-item {
+    /* background-color: yellow; */
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: 1px black solid;
+
+}
